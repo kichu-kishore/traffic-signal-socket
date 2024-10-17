@@ -1,0 +1,22 @@
+export const FOUR_LIGHT = "4LI";
+export const NORMAL_LIGHT = "NOR";
+export const C_SPECIAL_ASPECT = "CSA";
+export const P_SPECIAL_ASPECT = "PSA";
+export const HALF_CIRCLE = "HCE";
+export const NORMAL_WITH_HALF_CIRCLE = "NWH";
+
+export const SEMAPHORE_WITH_THREE = "STH";
+export const SEMAPHORE_WITH_SINGLE_LEFT = "SSL";
+export const SEMAPHORE_WITH_SINGLE_RIGHT = "SSR";
+
+export const NORMAL_SIGNAL_CATEGORY = [
+  FOUR_LIGHT,
+  NORMAL_LIGHT,
+  C_SPECIAL_ASPECT,
+  P_SPECIAL_ASPECT,
+];
+export const SEMAPHORE_CATEGORY = [
+    SEMAPHORE_WITH_THREE,
+    SEMAPHORE_WITH_SINGLE_LEFT,
+    SEMAPHORE_WITH_SINGLE_RIGHT
+]
